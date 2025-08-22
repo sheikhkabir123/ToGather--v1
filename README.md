@@ -186,9 +186,7 @@ git push origin main
 
 PRs welcome. Please open an issue for feature requests/bugs.
 
----
 
-## 📄 License
 
 MIT (or your preferred license). Add `LICENSE` file at repo root.
 
