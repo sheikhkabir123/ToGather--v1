@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.sqlite3
+
+# Kivy logs
+*.log
+*.db
+
+# macOS system files
+.DS_Store
