@@ -2,6 +2,7 @@ from django.urls import path
 from . import views, auth_views
 
 urlpatterns = [
+    # health
     path('ping/', views.ping),
 
     # auth
@@ -12,4 +13,9 @@ urlpatterns = [
     # buddies
     path('buddies/', views.buddies),
     path('buddies/<str:username>/', views.buddy_delete),
+
+    # locations
+    path('location/', views.location_update),                 # POST
+    path('location/<str:username>/', views.location_of),      # GET
+    path('locations/', views.buddies_locations),              # GET
 ]
